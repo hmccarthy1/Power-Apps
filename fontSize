@@ -1,1 +1,18 @@
-Header text
+Header text (H1)
+
+// XL screens
+If(
+    App.Width > 2000, 20,
+
+// LG screens
+If(
+    App.Width >= 1200, 16,
+
+// MD screens
+If(
+    App.Width >= 900, 14,
+
+// SM screens
+12)))
+
+Sub-Header Text (h2) ( Navigation components, Next buttons, etc. )
